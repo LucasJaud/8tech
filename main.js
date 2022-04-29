@@ -10,6 +10,8 @@ let btnbuy = document.querySelector('#btn');
 btnbuy.addEventListener('click',function(){
 location.assign('./compra.html')
 
-
 })
+
+const t = document.querySelector("#titulo");
+t.style.cssText ='color: white'
 
